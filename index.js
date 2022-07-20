@@ -1,7 +1,6 @@
 const { kMaxLength } = require('buffer');
 const fs = require('fs');
 const createCsvWriter = require('csv-writer').createArrayCsvWriter;
-var moment = require('moment');
 
 
 // ***** V1 GET DATAS WITH REGEX, THEN TYPE DATAS, TO FINISH CREATE CSV ... all this with tests *****
